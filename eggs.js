@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"eggs_atlas_1", frames: [[477,1234,291,56],[498,794,546,108],[770,1234,291,56],[498,904,546,108],[498,1014,546,108],[1046,794,469,108],[0,616,432,108],[1046,904,469,108],[1046,1014,432,108],[954,1124,432,108],[0,726,341,56],[0,1106,475,108],[1662,1225,341,56],[477,1124,475,108],[0,1216,475,108],[450,0,713,363],[1520,769,478,376],[450,365,580,418],[1520,389,478,378],[0,785,496,319],[1388,1147,288,76],[1662,1283,305,58],[1678,1147,272,76],[0,0,448,614],[1388,1225,272,76],[1032,389,486,403],[1165,0,628,387]]},
-		{name:"eggs_atlas_2", frames: [[953211316,3,-1040187284,-788529043],[0,0,889,888],[0,890,776,816],[778,890,686,750],[1466,0,523,702],[891,0,463,631],[1466,1323,448,616],[1466,704,448,617]]},
+		{name:"eggs_atlas_2", frames: [[0,0,889,888],[0,890,776,816],[778,890,686,750],[1466,0,523,702],[891,0,463,631],[1466,1323,448,616],[1466,704,448,617]]},
 		{name:"eggs_atlas_3", frames: [[0,1005,1033,985],[1035,1005,1000,1000],[0,0,1783,1003]]}
 ];
 
@@ -38,35 +38,35 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_29 = function() {
 	this.initialize(ss["eggs_atlas_2"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_28 = function() {
 	this.initialize(ss["eggs_atlas_2"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_27 = function() {
 	this.initialize(ss["eggs_atlas_2"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_26 = function() {
 	this.initialize(ss["eggs_atlas_2"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_25 = function() {
 	this.initialize(ss["eggs_atlas_2"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -185,7 +185,7 @@ lib.ssMetadata = [
 
 (lib.Bitmap1 = function() {
 	this.initialize(ss["eggs_atlas_2"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -262,7 +262,7 @@ lib.ssMetadata = [
 
 (lib.Bitmap3 = function() {
 	this.initialize(ss["eggs_atlas_2"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1626,9 +1626,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/eggs_atlas_1.png?1744311678350", id:"eggs_atlas_1"},
-		{src:"images/eggs_atlas_2.png?1744311678350", id:"eggs_atlas_2"},
-		{src:"images/eggs_atlas_3.png?1744311678350", id:"eggs_atlas_3"}
+		{src:"images/eggs_atlas_1.png?1744317121514", id:"eggs_atlas_1"},
+		{src:"images/eggs_atlas_2.png?1744317121514", id:"eggs_atlas_2"},
+		{src:"images/eggs_atlas_3.png?1744317121514", id:"eggs_atlas_3"}
 	],
 	preloads: []
 };
