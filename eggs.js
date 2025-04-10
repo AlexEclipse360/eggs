@@ -831,7 +831,7 @@ if (reversed == null) { reversed = false; }
 		this.stop()
 	}
 	this.frame_803 = function() {
-		this.tenndiscount.addEventListener("click", function() {
+		this.tendiscount.addEventListener("click", function() {
 		  window.open("https://www.reservations.accentinns.com/ibe/default.aspx?hgID=1571&lang=en-us&checkin=04/21/2025&nights=1&rooms=1&adults=1&children=0&promo=sale10&iata=&group=&hotels=&ada=0&currid=28&vouchercode=&attendeeCode=", "_blank");
 		});
 	}
@@ -1626,9 +1626,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/eggs_atlas_1.png?1744317121514", id:"eggs_atlas_1"},
-		{src:"images/eggs_atlas_2.png?1744317121514", id:"eggs_atlas_2"},
-		{src:"images/eggs_atlas_3.png?1744317121514", id:"eggs_atlas_3"}
+		{src:"images/eggs_atlas_1.png?1744319182785", id:"eggs_atlas_1"},
+		{src:"images/eggs_atlas_2.png?1744319182785", id:"eggs_atlas_2"},
+		{src:"images/eggs_atlas_3.png?1744319182786", id:"eggs_atlas_3"}
 	],
 	preloads: []
 };
